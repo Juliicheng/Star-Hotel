@@ -7,19 +7,21 @@ IDE: IntelliJ IDEA 2017.2.5
 
 Scene Builder 2.0 download: http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html
 
-higher version: https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java
+or higher version: https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
-
- 
-Tutorials:
+## Tutorials:
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
 
 http://blog.csdn.net/ml3947/article/category/782398/3
 
 [Using SB in IDEA](http://docs.oracle.com/javase/8/scene-builder-2/work-with-java-ides/sb-with-intellij.htm#JSBID102)
+
+Generate controller in IDEA: go to Scene Builder and click View > Show Sample Controller Skeleton.
+
 [Quick Guide of SB](http://docs.oracle.com/javase/8/scene-builder-2/get-started-tutorial/jfxsb-get_started.htm#JSBGS101)
+
 [Full Guide of SB](http://docs.oracle.com/javase/8/scene-builder-2/user-guide/index.html)
 
 [Layout](http://blog.csdn.net/theonegis/article/details/50184811)
@@ -35,8 +37,8 @@ http://blog.csdn.net/ml3947/article/category/782398/3
 [several samples](http://365programperday.blogspot.com.au/2013/07/javafx-and-mysql-sample-illustration.html)
 
  
-  
-Documentations:
+  
+## Documentations:
 
 [JavaFX 8](http://docs.oracle.com/javase/8/javafx/api/)
 
