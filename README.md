@@ -11,7 +11,7 @@ higher version: https://stackoverflow.com/questions/28808130/where-exactly-can-i
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
 
-
+ 
 Tutorials:
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
@@ -34,8 +34,11 @@ http://blog.csdn.net/ml3947/article/category/782398/3
 
 [several samples](http://365programperday.blogspot.com.au/2013/07/javafx-and-mysql-sample-illustration.html)
 
-
+ 
+  
 Documentations:
+
 [JavaFX 8](http://docs.oracle.com/javase/8/javafx/api/)
+
 [Controller](http://fxexperience.com/controlsfx/)
 
