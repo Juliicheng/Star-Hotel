@@ -10,7 +10,7 @@ Scene Builder 2.0 download: http://www.oracle.com/technetwork/java/javafxscenebu
 or higher version: https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
-## Tutorials:
+## Tutorials
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
 
@@ -18,7 +18,7 @@ http://blog.csdn.net/ml3947/article/category/782398/3
 
 [Using SB in IDEA](http://docs.oracle.com/javase/8/scene-builder-2/work-with-java-ides/sb-with-intellij.htm#JSBID102)
 
-Generate controller in IDEA: go to Scene Builder and click View > Show Sample Controller Skeleton.
+Generate controller in IDEA: go to Scene Builder and click View > Show Sample Controller Skeleton. https://stackoverflow.com/questions/26865596/no-injectable-field-found-in-fxml-controller-class
 
 [Quick Guide of SB](http://docs.oracle.com/javase/8/scene-builder-2/get-started-tutorial/jfxsb-get_started.htm#JSBGS101)
 
@@ -36,9 +36,14 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 
 [several samples](http://365programperday.blogspot.com.au/2013/07/javafx-and-mysql-sample-illustration.html)
 
-## Documentations:
+[Reactive](http://www.oschina.net/translate/building-reactive-systems-with-javafx)
+
+## Documentations
 
 [JavaFX 8](http://docs.oracle.com/javase/8/javafx/api/)
 
 [Controller](http://fxexperience.com/controlsfx/)
+
+## markdown
+https://github.com/guodongxiaren/README
 
