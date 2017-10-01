@@ -36,8 +36,6 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 
 [several samples](http://365programperday.blogspot.com.au/2013/07/javafx-and-mysql-sample-illustration.html)
 
- 
-  
 ## Documentations:
 
 [JavaFX 8](http://docs.oracle.com/javase/8/javafx/api/)
