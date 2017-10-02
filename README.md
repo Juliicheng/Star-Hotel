@@ -51,6 +51,8 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 ## Samples
 [Official](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm#JFXST804)
 
+[Address Book](http://www.javafxchina.net/blog/2015/08/fxml_address_book/)
+
 [Onepass](https://gitee.com/softxj/onepass4.0/)
 
 [thb_client](https://gitee.com/qnloft/thb_client)
