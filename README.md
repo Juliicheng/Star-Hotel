@@ -5,9 +5,9 @@ JDK version: 9
 
 IDE: IntelliJ IDEA 2017.2.5
 
-Scene Builder 2.0 download: http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html
+Scene Builder 2.0 [Download](http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html)
 
-or higher version: https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java
+or [higher version](https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java)
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
 ## Tutorials
@@ -24,7 +24,7 @@ http://blog.csdn.net/ml3947/article/category/782398/3
 
 [Using SB in IDEA](http://docs.oracle.com/javase/8/scene-builder-2/work-with-java-ides/sb-with-intellij.htm#JSBID102)
 
-Generate controller in IDEA: go to Scene Builder and click View > Show Sample Controller Skeleton. https://stackoverflow.com/questions/26865596/no-injectable-field-found-in-fxml-controller-class
+Generate controller in IDEA: go to Scene Builder and click View > Show Sample Controller Skeleton. ([related qustion](https://stackoverflow.com/questions/26865596/no-injectable-field-found-in-fxml-controller-class))
 
 [Quick Guide of SB](http://docs.oracle.com/javase/8/scene-builder-2/get-started-tutorial/jfxsb-get_started.htm#JSBGS101)
 
