@@ -30,3 +30,20 @@ public class Controller implements Initializable {
     }
 
 }
+
+// Change Stage
+/*
+* 	public PrintController(String code, Stage primaryStage) {
+		this.code = code;
+		this.primaryStage = primaryStage;
+		scene = new Scene(createContent3());
+//		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+
+		 scene.getStylesheets().add(getClass().getResource("application_print.css").toExternalForm());
+		primaryStage.setTitle("提货宝");
+		primaryStage.setFullScreen(true); // 全屏显示
+
+		primaryStage.setScene(scene);
+		primaryStage.show();
+	}
+*/

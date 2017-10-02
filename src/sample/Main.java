@@ -6,7 +6,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.fxml.FXMLLoader;
-import java.util.*;
 
 public class Main extends Application {
 
@@ -25,7 +24,7 @@ public class Main extends Application {
 //        root.getChildren().add(btn);
 
         Scene scene = new Scene(root, 600, 400);
-        primaryStage.setTitle("Reservation");
+        primaryStage.setTitle("reservation");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
