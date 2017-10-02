@@ -10,6 +10,10 @@ Scene Builder 2.0 [Download](http://www.oracle.com/technetwork/java/javafxsceneb
 or [higher version](https://stackoverflow.com/questions/28808130/where-exactly-can-i-download-the-latest-version-of-scene-builder-for-java)
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
+
+## TO-DO
+[Disable some days from DatePicker](http://o7planning.org/en/11085/javafx-datepicker-tutorial)
+
 ## Tutorials
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
