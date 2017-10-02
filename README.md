@@ -14,7 +14,13 @@ Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/READ
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
 
+[Overall2](https://www.beibq.cn/book/2ajm633/15640)
+
 http://blog.csdn.net/ml3947/article/category/782398/3
+
+[atnoce](https://atnoce.com/?cate=1)
+
+[sixlab](https://blog.sixlab.cn/archives/category/java/javafx)
 
 [Using SB in IDEA](http://docs.oracle.com/javase/8/scene-builder-2/work-with-java-ides/sb-with-intellij.htm#JSBID102)
 
@@ -37,6 +43,13 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 [several samples](http://365programperday.blogspot.com.au/2013/07/javafx-and-mysql-sample-illustration.html)
 
 [Reactive](http://www.oschina.net/translate/building-reactive-systems-with-javafx)
+
+## Samples
+[Onepass](https://gitee.com/softxj/onepass4.0/)
+
+[thb_client](https://gitee.com/qnloft/thb_client)
+
+[student score](https://github.com/JeremieAstray/studentScoreAnalysis/tree/master/src/com/jeremie/scoreAnalysis/controller)
 
 ## Documentations
 
