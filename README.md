@@ -14,7 +14,9 @@ Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/READ
 
 [Overall](https://wizardforcel.gitbooks.io/tutorialspoint-java/javafx/662.html)
 
-[Overall2](https://www.beibq.cn/book/2ajm633/15640)
+[Overall 2](https://www.beibq.cn/book/2ajm633/15640)
+
+[Overall 3](http://code.makery.ch/library/javafx-8-tutorial/zh-cn/)
 
 [TutorialsPoint](http://tutorialspoint.howtolib.com/javafx/javafx_quick_guide.htm)
 
