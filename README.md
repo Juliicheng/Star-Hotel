@@ -34,6 +34,8 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 
 [Layout](http://blog.csdn.net/theonegis/article/details/50184811)
 
+[tips](http://www.cnblogs.com/yinger/archive/2012/04/17/2453522.html)
+
 [2D animation](https://coderknock.com/blog/2016/07/21/JavaFX.html)
 
 [JDBC1](https://www.youtube.com/watch?v=h01xi3UI9lk)
@@ -47,6 +49,8 @@ Generate controller in IDEA: go to Scene Builder and click View > Show Sample Co
 [Reactive](http://www.oschina.net/translate/building-reactive-systems-with-javafx)
 
 ## Samples
+[Official](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm#JFXST804)
+
 [Onepass](https://gitee.com/softxj/onepass4.0/)
 
 [thb_client](https://gitee.com/qnloft/thb_client)
