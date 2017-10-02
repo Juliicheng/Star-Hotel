@@ -26,6 +26,7 @@ public class Main extends Application {
         Scene scene = new Scene(root, 600, 400);
         primaryStage.setTitle("reservation");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(true);
         primaryStage.show();
     }
 

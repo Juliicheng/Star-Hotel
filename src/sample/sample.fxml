@@ -16,23 +16,28 @@
    <rowConstraints>
       <RowConstraints />
    </rowConstraints>
+   <children>
       <BorderPane prefHeight="300.0" prefWidth="400.0">
          <center>
-            <DatePicker BorderPane.alignment="CENTER" />
+            <DatePicker fx:id="startDatePicker" BorderPane.alignment="CENTER"/>
          </center>
          <top>
             <Label text="ROOM 208" BorderPane.alignment="TOP_CENTER">
                <BorderPane.margin>
-                  <Insets top="1.0" />
+                  <Insets top="1.0"/>
                </BorderPane.margin>
             </Label>
          </top>
          <bottom>
             <Button fx:id="okButton" mnemonicParsing="false" text="OK" BorderPane.alignment="CENTER">
                <BorderPane.margin>
-                  <Insets bottom="10.0" />
+                  <Insets bottom="10.0"/>
                </BorderPane.margin>
             </Button>
          </bottom>
+         <left>
+            <Label text="Start Date" BorderPane.alignment="CENTER"/>
+         </left>
       </BorderPane>
+   </children>
 </GridPane>
