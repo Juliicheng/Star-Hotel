@@ -1,6 +1,7 @@
 package customer.info;
 
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -30,8 +31,6 @@ public class CustomerInfoViewController {
     @FXML
     private TextField firstNameTextField;
 
-    final private String[] states = {"NSW", "VIC", "ACT"};
-
     @FXML
     private Button confirmButton;
 
@@ -49,46 +48,40 @@ public class CustomerInfoViewController {
 
     @FXML
     private Button cancelButton;
+
     @FXML
     private ChoiceBox stateChoiceBox; // no <?> !!!!
-//    private ArrayList<String> statesList;
 
+    /*
+    * NSW|New South Wales
+    * QLD|Queensland
+    * SA|South Australia
+    * TAS|Tasmania
+    * VIC|Victoria
+    * WA|Western Australia
+    * ACT|Australian Capital Territory
+    * NT|Northern Territory
+    * */
+    final private ObservableList stateList = FXCollections.observableArrayList("NSW", "QLD", "SA", "TAS", "VIC", "WA", "ACT", "NT");
 
-
-//    @Override
-//    public void getStateChoiceBox
-
-    public ChoiceBox<?> getStateChoiceBox() {
-//        ChoiceBox stateChoiceBox = new ChoiceBox();
-//        stateChoiceBox.getItems().addAll("dd", "dc");
-
-
-//        ChoiceBox stateChoiceBox = new ChoiceBox();
-//        stateChoiceBox.getItems().addAll("item1", "item2", "item3");
-
-
-        return stateChoiceBox;
-    }
+//    final private String[] states = {"NSW", "QLD", "SA", "TAS", "VIC", "WA", "ACT", "NT"};
+//    final private ObservableList statesList = FXCollections.observableArrayList(Arrays.asList(states));
 
     @FXML
     public void initialize() {
-//        statesList.
-//       private ArrayList<String> states = Arrays.asList(states);
-        stateChoiceBox.setItems(FXCollections.observableArrayList(Arrays.asList(states)));
-        //        stateChoiceBox = new ChoiceBox();
+        stateChoiceBox.setItems(stateList);
+//        stateChoiceBox.getItems().addAll(FXCollections.observableArrayList(Arrays.asList(states))); // same
 //        stateChoiceBox.getItems().addAll("dd", "dc");
-//
-//                ChoiceBox stateChoiceBox = new ChoiceBox();
-//        stateChoiceBox.getItems().addAll("item1", "item2", "item3");
 
 
         this.confirmButton.setOnAction(
 
-//                event -> System.out.println("Touch confirm") // Lambda
+                // TODO: check all the fields are filled.
                 event -> {
+                    ArrayList inputs = new ArrayList();
                     firstNameTextField.getText();
                     surnameTextField.getText();
-
+                    System.out.println(stateChoiceBox.getValue());
                     System.out.println(postalCodeTextField.getText());
                     System.out.println("Touch confirm");
                 }
