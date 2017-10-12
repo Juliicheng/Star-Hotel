@@ -76,7 +76,16 @@ public class CustomerInfoViewController implements Initializable {
 
 
         this.confirmButton.setOnAction(
-                event -> System.out.println("Touch confirm") // Lambda
+
+//                event -> System.out.println("Touch confirm") // Lambda
+                event -> {
+                    firstNameTextField.getText();
+                    surnameTextField.getText();
+
+                    System.out.println(postalCodeTextField.getText());
+                    System.out.println("Touch confirm");
+                }
+
         );
 
         ToggleGroup group = new ToggleGroup();

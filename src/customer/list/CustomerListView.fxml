@@ -8,7 +8,7 @@
 
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
             xmlns="http://javafx.com/javafx"
-            fx:controller="customer.ShowCustomerView"
+            fx:controller="customer.list.CustomerListViewController"
             prefHeight="400.0" prefWidth="600.0">
 
 </AnchorPane>

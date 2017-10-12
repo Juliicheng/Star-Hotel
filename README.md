@@ -21,9 +21,9 @@ MySQL
 
 int customer_id
 
-String surname
+String first_name
 
-String last name
+String surname
 
 bool gender
 
