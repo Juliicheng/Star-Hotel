@@ -6,9 +6,11 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 
-public class CustomerInfoViewController implements Initializable {
+public class CustomerInfoViewController {
 
     @FXML
     private TextField addressTextField;
@@ -28,8 +30,7 @@ public class CustomerInfoViewController implements Initializable {
     @FXML
     private TextField firstNameTextField;
 
-    @FXML
-    private ChoiceBox<?> stateChoiceBox;
+    final private String[] states = {"NSW", "VIC", "ACT"};
 
     @FXML
     private Button confirmButton;
@@ -48,6 +49,10 @@ public class CustomerInfoViewController implements Initializable {
 
     @FXML
     private Button cancelButton;
+    @FXML
+    private ChoiceBox stateChoiceBox; // no <?> !!!!
+//    private ArrayList<String> statesList;
+
 
 
 //    @Override
@@ -65,10 +70,12 @@ public class CustomerInfoViewController implements Initializable {
         return stateChoiceBox;
     }
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
-//        stateChoiceBox = new ChoiceBox();
+    @FXML
+    public void initialize() {
+//        statesList.
+//       private ArrayList<String> states = Arrays.asList(states);
+        stateChoiceBox.setItems(FXCollections.observableArrayList(Arrays.asList(states)));
+        //        stateChoiceBox = new ChoiceBox();
 //        stateChoiceBox.getItems().addAll("dd", "dc");
 //
 //                ChoiceBox stateChoiceBox = new ChoiceBox();
@@ -101,5 +108,11 @@ public class CustomerInfoViewController implements Initializable {
 //                "A", "B", new Separator(), "C", "D");
         //)
     }
+
+//    @Override
+//    public void initialize(URL location, ResourceBundle resources) {
+//
+//
+//    }
 
 }
