@@ -20,15 +20,25 @@ Git Tool: SourceTree
 MySQL
 
 int customer_id
+
 String surname
+
 String last name
+
 bool gender
+
 String contact num
+
 String address
+
 String suburb
+
 String state
+
 String postal code
+
 bool defaulter
+
 bool frequenter
 
 ## Tutorials
