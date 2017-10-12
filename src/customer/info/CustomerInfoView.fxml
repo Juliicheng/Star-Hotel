@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="572.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
-            fx:controller="customer.CustomerInfoViewController">
+            fx:controller="customer.info.CustomerInfoViewController">
     <children>
         <Label layoutX="130.0" layoutY="130.0" text="Gender"/>
         <Label layoutX="130.0" layoutY="77.0" text="First Name"/>

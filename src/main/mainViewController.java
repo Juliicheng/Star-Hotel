@@ -64,7 +64,7 @@ public class mainViewController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        this.customerButton.setOnAction(
+        customerButton.setOnAction(
                 event -> {
 
                     ObservableList<Window> windows = Window.getWindows();
