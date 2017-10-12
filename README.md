@@ -27,7 +27,7 @@ String surname
 
 bool gender
 
-String contact num
+String contact_num
 
 String address
 
