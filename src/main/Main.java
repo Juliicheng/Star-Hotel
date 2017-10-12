@@ -1,4 +1,4 @@
-package sample;
+package main;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -18,7 +18,7 @@ public class Main extends Application {
 //        System.out.println(testString);
 //
 
-        Parent root = FXMLLoader.load(getClass().getResource("/customer/info/CustomerInfoView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/main/mainView.fxml"));
 
 //        StackPane root = new StackPane();
 //        root.getChildren().add(btn);

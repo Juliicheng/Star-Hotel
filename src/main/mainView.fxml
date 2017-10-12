@@ -9,7 +9,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8"
+          fx:controller="main.mainViewController">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -18,26 +19,20 @@
    </rowConstraints>
    <children>
       <BorderPane prefHeight="300.0" prefWidth="400.0">
-         <center>
-            <DatePicker fx:id="startDatePicker" BorderPane.alignment="CENTER"/>
-         </center>
          <top>
-            <Label text="ROOM 208" BorderPane.alignment="TOP_CENTER">
+            <Label text="Star Hotel Management System" BorderPane.alignment="TOP_CENTER">
                <BorderPane.margin>
                   <Insets top="1.0"/>
                </BorderPane.margin>
             </Label>
          </top>
-         <bottom>
-            <Button fx:id="okButton" mnemonicParsing="false" text="OK" BorderPane.alignment="CENTER">
+         <center>
+            <Button fx:id="customerButton" mnemonicParsing="false" text="Customer Panel" BorderPane.alignment="CENTER">
                <BorderPane.margin>
                   <Insets bottom="10.0"/>
                </BorderPane.margin>
             </Button>
-         </bottom>
-         <left>
-            <Label text="Start Date" BorderPane.alignment="CENTER"/>
-         </left>
+         </center>
       </BorderPane>
    </children>
 </GridPane>
