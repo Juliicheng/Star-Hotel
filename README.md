@@ -11,8 +11,25 @@ or [higher version](https://stackoverflow.com/questions/28808130/where-exactly-c
 
 Code Style: [link](https://github.com/Dreampie/java-style-guide/blob/master/README.md)
 
+Git Tool: SourceTree
+
 ## TO-DO
 [Disable some days from DatePicker](http://o7planning.org/en/11085/javafx-datepicker-tutorial)
+
+## DB Scheme
+MySQL
+
+int customer_id
+String surname
+String last name
+bool gender
+String contact num
+String address
+String suburb
+String state
+String postal code
+bool defaulter
+bool frequenter
 
 ## Tutorials
 

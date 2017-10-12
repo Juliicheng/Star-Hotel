@@ -18,13 +18,13 @@ public class Main extends Application {
 //        System.out.println(testString);
 //
 
-        Parent root = FXMLLoader.load(getClass().getResource("/sample/sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/customer/info/CustomerInfoView.fxml"));
 
 //        StackPane root = new StackPane();
 //        root.getChildren().add(btn);
 
-        Scene scene = new Scene(root, 600, 400);
-        primaryStage.setTitle("reservation");
+        Scene scene = new Scene(root, 600, 600);
+        primaryStage.setTitle("xxx");
         primaryStage.setScene(scene);
         primaryStage.setResizable(true);
         primaryStage.show();
