@@ -1,7 +1,5 @@
 package main;
 
-//import com.sun.javafx.stage.StageHelper;
-
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -27,40 +25,6 @@ public class mainViewController implements Initializable {
 
     @FXML
     private Button customerButton;
-//    @FXML
-//    private DatePicker startDatePicker;
-
-
-//    // Factory to create Cell of DatePicker
-//    private Callback<DatePicker, DateCell> getDayCellFactory() {
-//
-//        // dayCellFactory
-//        return new Callback<>() {
-//
-//            @Override
-//            public DateCell call(final DatePicker datePicker) {
-//                return new DateCell() {
-//                    @Override
-//                    public void updateItem(LocalDate item, boolean empty) {
-//                        super.updateItem(item, empty);
-//
-//                        // Disable Monday, Tueday, Wednesday.
-//                        if (item.getDayOfWeek() == DayOfWeek.MONDAY //
-//                                || item.getDayOfWeek() == DayOfWeek.TUESDAY //
-//                                || item.getDayOfWeek() == DayOfWeek.WEDNESDAY) {
-//                            setDisable(true);
-//                            setStyle("-fx-background-color: #ffc0cb;");
-//                        }
-//                    }
-//                };
-//            }
-//        };
-//        //return dayCellFactory;
-//    }
-
-//    private disableDays(DatePicker dp) {
-//
-//    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -78,27 +42,11 @@ public class mainViewController implements Initializable {
 
                     }
 
-
-//                    System.out.println("Touch OK"); // Lambda
                 }
 
 
-
-        /* old version
-        new EventHandler<>() {
-            btn.setOnAction(new EventHandler<ActionEvent>() {
-        @Override
-    public void handle(ActionEvent event) {
-        System.out.println("Touch OK");
-    }
-}*/
         );
 
-//        startDatePicker.setShowWeekNumbers(true);
-//
-//        // Factory to create Cell of DatePicker
-//        Callback<DatePicker, DateCell> dayCellFactory = this.getDayCellFactory();
-//        startDatePicker.setDayCellFactory(dayCellFactory);
 
     }
 
